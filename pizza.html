@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CraveBox Cafe | Pizza</title>
+  <meta name="description" content="Explore premium vegetarian pizzas at CraveBox Cafe." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="loading-screen">
+    <div class="loader-card">
+      <img src="images/logo.png" alt="CraveBox Cafe logo" />
+      <h2>CraveBox Cafe</h2>
+      <p>Pizza Collection</p>
+    </div>
+  </div>
+
+  <div class="site-shell">
+    <div class="particles"></div>
+
+    <nav class="navbar">
+      <div class="navbar-inner">
+        <a class="brand" href="index.html">
+          <img src="images/logo.png" alt="CraveBox Cafe logo" />
+          <span>CraveBox Cafe</span>
+        </a>
+
+        <button class="menu-toggle" aria-label="Toggle menu">☰</button>
+
+        <div class="nav-links">
+          <a href="index.html">Home</a>
+          <a href="pizza.html" class="active">Pizza</a>
+          <a href="sandwiches.html">Sandwiches</a>
+          <a href="maggi.html">Maggi</a>
+          <a href="garlic-bread.html">Garlic Bread</a>
+          <a href="fries.html">Fries</a>
+          <a href="index.html#contact">Contact</a>
+          <button class="theme-toggle" aria-label="Toggle theme">☀️</button>
+        </div>
+      </div>
+    </nav>
+
+    <header class="hero" style="min-height: 70vh;">
+      <video autoplay muted loop playsinline poster="images/paneer-pizza.jpeg">
+        <source src="images/pizza-video.mp4" type="video/mp4" />
+      </video>
+
+      <div class="hero-content" style="max-width: 980px;">
+        <div class="hero-copy reveal">
+          <span class="eyebrow">Pizza</span>
+          <h1 class="hero-title">Golden crusts, bold toppings, and pure indulgence</h1>
+          <p class="hero-subtitle">Discover a premium pizza collection made with rich sauces, fresh vegetables, and luxurious finishing touches.</p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="index.html#contact">Order Now</a>
+            <a class="btn btn-ghost" href="index.html">Back Home</a>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="section">
+        <div class="section-head reveal">
+          <span class="eyebrow">Signature Pizza</span>
+          <h2>Crafted for every kind of craving</h2>
+        </div>
+
+        <div class="menu-grid">
+          <article class="menu-card reveal">
+            <img src="images/loaded-cravebox-special-pizza.jpeg" alt="Loaded CraveBox special pizza" loading="lazy" />
+            <div class="menu-card-body">
+              <h3>CraveBox Special Pizza</h3>
+              <p>Smoky vegetables, bold sauces, and a rich, molten cheese finish.</p>
+              <a class="btn btn-secondary" href="index.html#contact">Order Now</a>
+            </div>
+          </article>
+
+          <article class="menu-card reveal">
+            <img src="images/margherita-pizza.jpeg" alt="Margherita pizza" loading="lazy" />
+            <div class="menu-card-body">
+              <h3>Margherita</h3>
+              <p>Classic flavors with a soft center and a crisp, golden edge.</p>
+              <a class="btn btn-secondary" href="index.html#contact">Order Now</a>
+            </div>
+          </article>
+
+          <article class="menu-card reveal">
+            <img src="images/paneer-pizza.jpeg" alt="Paneer pizza" loading="lazy" />
+            <div class="menu-card-body">
+              <h3>Paneer Delight</h3>
+              <p>Paneer chunks, roasted vegetables, and creamy cheese in perfect harmony.</p>
+              <a class="btn btn-secondary" href="index.html#contact">Order Now</a>
+            </div>
+          </article>
+
+          <article class="menu-card reveal">
+            <img src="images/corn-cheese-pizza.jpeg" alt="Corn cheese pizza" loading="lazy" />
+            <div class="menu-card-body">
+              <h3>Corn Cheese Burst</h3>
+              <p>Sweet corn, rich cheese, and a savory finish for a joyful bite.</p>
+              <a class="btn btn-secondary" href="index.html#contact">Order Now</a>
+            </div>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>© <span id="year"></span> CraveBox Cafe. Every Bite Creates Happiness.</p>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

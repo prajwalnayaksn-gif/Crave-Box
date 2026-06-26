@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CraveBox Cafe | Sandwiches</title>
+  <meta name="description" content="Explore premium vegetarian sandwiches at CraveBox Cafe." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="loading-screen">
+    <div class="loader-card">
+      <img src="images/logo.png" alt="CraveBox Cafe logo" />
+      <h2>CraveBox Cafe</h2>
+      <p>Sandwich Collection</p>
+    </div>
+  </div>
+
+  <div class="site-shell">
+    <div class="particles"></div>
+
+    <nav class="navbar">
+      <div class="navbar-inner">
+        <a class="brand" href="index.html">
+          <img src="images/logo.png" alt="CraveBox Cafe logo" />
+          <span>CraveBox Cafe</span>
+        </a>
+        <button class="menu-toggle" aria-label="Toggle menu">☰</button>
+        <div class="nav-links">
+          <a href="index.html">Home</a>
+          <a href="pizza.html">Pizza</a>
+          <a href="sandwiches.html" class="active">Sandwiches</a>
+          <a href="maggi.html">Maggi</a>
+          <a href="garlic-bread.html">Garlic Bread</a>
+          <a href="fries.html">Fries</a>
+          <a href="index.html#contact">Contact</a>
+          <button class="theme-toggle" aria-label="Toggle theme">☀️</button>
+        </div>
+      </div>
+    </nav>
+
+    <header class="hero" style="min-height: 70vh;">
+      <video autoplay muted loop playsinline poster="images/veg-grilled-sandwich.jpeg">
+        <source src="images/sandwhich-video.mp4" type="video/mp4" />
+      </video>
+
+      <div class="hero-content" style="max-width: 980px;">
+        <div class="hero-copy reveal">
+          <span class="eyebrow">Sandwiches</span>
+          <h1 class="hero-title">Toasted, stacked, and made to impress</h1>
+          <p class="hero-subtitle">Premium vegetarian sandwiches with crisp textures, rich fillings, and an indulgent finish.</p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="index.html#contact">Order Now</a>
+            <a class="btn btn-ghost" href="index.html">Back Home</a>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="section">
+        <div class="section-head reveal">
+          <span class="eyebrow">Sandwich Signature</span>
+          <h2>Warm, golden, and full of flavor</h2>
+        </div>
+
+        <div class="menu-grid">
+          <article class="menu-card reveal">
+            <img src="images/crave-box-special-sandwich.jpeg" alt="CraveBox special sandwich" loading="lazy" />
+            <div class="menu-card-body">
+              <h3>CraveBox Special</h3>
+              <p>Layered with signature sauces and a crisp toasted finish.</p>
+              <a class="btn btn-secondary" href="index.html#contact">Order Now</a>
+            </div>
+          </article>
+
+          <article class="menu-card reveal">
+            <img src="images/veg-grilled-sandwich.jpeg" alt="Veg grilled sandwich" loading="lazy" />
+            <div class="menu-card-body">
+              <h3>Veg Grilled</h3>
+              <p>Cheese, peppers, onions, and warm herbs in a crisp toast.</p>
+              <a class="btn btn-secondary" href="index.html#contact">Order Now</a>
+            </div>
+          </article>
+
+          <article class="menu-card reveal">
+            <img src="images/paneer-sandwich.jpeg" alt="Paneer sandwich" loading="lazy" />
+            <div class="menu-card-body">
+              <h3>Paneer Crunch</h3>
+              <p>Paneer pieces and a creamy filling for a rich, satisfying bite.</p>
+              <a class="btn btn-secondary" href="index.html#contact">Order Now</a>
+            </div>
+          </article>
+
+          <article class="menu-card reveal">
+            <img src="images/corn-cheese-sandwich.jpeg" alt="Corn cheese sandwich" loading="lazy" />
+            <div class="menu-card-body">
+              <h3>Corn Cheese Toast</h3>
+              <p>Sweet corn and cheese melting into a comforting favorite.</p>
+              <a class="btn btn-secondary" href="index.html#contact">Order Now</a>
+            </div>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>© <span id="year"></span> CraveBox Cafe. Every Bite Creates Happiness.</p>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

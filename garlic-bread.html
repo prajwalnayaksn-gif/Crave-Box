@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CraveBox Cafe | Garlic Bread</title>
+  <meta name="description" content="Explore premium vegetarian garlic bread at CraveBox Cafe." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="loading-screen">
+    <div class="loader-card">
+      <img src="images/logo.png" alt="CraveBox Cafe logo" />
+      <h2>CraveBox Cafe</h2>
+      <p>Garlic Bread Collection</p>
+    </div>
+  </div>
+
+  <div class="site-shell">
+    <div class="particles"></div>
+
+    <nav class="navbar">
+      <div class="navbar-inner">
+        <a class="brand" href="index.html">
+          <img src="images/logo.png" alt="CraveBox Cafe logo" />
+          <span>CraveBox Cafe</span>
+        </a>
+        <button class="menu-toggle" aria-label="Toggle menu">☰</button>
+        <div class="nav-links">
+          <a href="index.html">Home</a>
+          <a href="pizza.html">Pizza</a>
+          <a href="sandwiches.html">Sandwiches</a>
+          <a href="maggi.html">Maggi</a>
+          <a href="garlic-bread.html" class="active">Garlic Bread</a>
+          <a href="fries.html">Fries</a>
+          <a href="index.html#contact">Contact</a>
+          <button class="theme-toggle" aria-label="Toggle theme">☀️</button>
+        </div>
+      </div>
+    </nav>
+
+    <header class="hero" style="min-height: 70vh;">
+      <video autoplay muted loop playsinline poster="images/cheese-garlic-bread.jpeg">
+        <source src="images/garlic-bread-video.mp4" type="video/mp4" />
+      </video>
+
+      <div class="hero-content" style="max-width: 980px;">
+        <div class="hero-copy reveal">
+          <span class="eyebrow">Garlic Bread</span>
+          <h1 class="hero-title">Warm, fragrant, and irresistibly golden</h1>
+          <p class="hero-subtitle">Soft inside, crisp outside, and finished with premium herbs and cheese.</p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="index.html#contact">Order Now</a>
+            <a class="btn btn-ghost" href="index.html">Back Home</a>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="section">
+        <div class="section-head reveal">
+          <span class="eyebrow">Garlic Bread Signature</span>
+          <h2>Fragrant flavors with a luxury finish</h2>
+        </div>
+
+        <div class="menu-grid">
+          <article class="menu-card reveal">
+            <img src="images/loaded-cravebox-special-garlic-bread.jpeg" alt="Loaded garlic bread" loading="lazy" />
+            <div class="menu-card-body">
+              <h3>Loaded CraveBox Garlic Bread</h3>
+              <p>Cheese, herbs, and savory toppings baked into a warm loaf.</p>
+              <a class="btn btn-secondary" href="index.html#contact">Order Now</a>
+            </div>
+          </article>
+
+          <article class="menu-card reveal">
+            <img src="images/classic-garlic-bread.jpeg" alt="Classic garlic bread" loading="lazy" />
+            <div class="menu-card-body">
+              <h3>Classic Garlic Bread</h3>
+              <p>Buttery garlic and herb flavors in every satisfying bite.</p>
+              <a class="btn btn-secondary" href="index.html#contact">Order Now</a>
+            </div>
+          </article>
+
+          <article class="menu-card reveal">
+            <img src="images/paneer-garlic-bread.jpeg" alt="Paneer garlic bread" loading="lazy" />
+            <div class="menu-card-body">
+              <h3>Paneer Garlic Bread</h3>
+              <p>Rich paneer filling and a crisp crust for a hearty snack.</p>
+              <a class="btn btn-secondary" href="index.html#contact">Order Now</a>
+            </div>
+          </article>
+
+          <article class="menu-card reveal">
+            <img src="images/corn-cheese-garlic-bread.jpeg" alt="Corn cheese garlic bread" loading="lazy" />
+            <div class="menu-card-body">
+              <h3>Corn Cheese Garlic Bread</h3>
+              <p>Sweet corn and cheese with a fragrant garlic finish.</p>
+              <a class="btn btn-secondary" href="index.html#contact">Order Now</a>
+            </div>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>© <span id="year"></span> CraveBox Cafe. Every Bite Creates Happiness.</p>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

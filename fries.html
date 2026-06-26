@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CraveBox Cafe | Fries</title>
+  <meta name="description" content="Explore premium vegetarian fries at CraveBox Cafe." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="loading-screen">
+    <div class="loader-card">
+      <img src="images/logo.png" alt="CraveBox Cafe logo" />
+      <h2>CraveBox Cafe</h2>
+      <p>Fries Collection</p>
+    </div>
+  </div>
+
+  <div class="site-shell">
+    <div class="particles"></div>
+
+    <nav class="navbar">
+      <div class="navbar-inner">
+        <a class="brand" href="index.html">
+          <img src="images/logo.png" alt="CraveBox Cafe logo" />
+          <span>CraveBox Cafe</span>
+        </a>
+        <button class="menu-toggle" aria-label="Toggle menu">☰</button>
+        <div class="nav-links">
+          <a href="index.html">Home</a>
+          <a href="pizza.html">Pizza</a>
+          <a href="sandwiches.html">Sandwiches</a>
+          <a href="maggi.html">Maggi</a>
+          <a href="garlic-bread.html">Garlic Bread</a>
+          <a href="fries.html" class="active">Fries</a>
+          <a href="index.html#contact">Contact</a>
+          <button class="theme-toggle" aria-label="Toggle theme">☀️</button>
+        </div>
+      </div>
+    </nav>
+
+    <header class="hero" style="min-height: 70vh;">
+      <video autoplay muted loop playsinline poster="images/loaded-fries.jpeg">
+        <source src="images/fries-video.mp4" type="video/mp4" />
+      </video>
+
+      <div class="hero-content" style="max-width: 980px;">
+        <div class="hero-copy reveal">
+          <span class="eyebrow">Fries</span>
+          <h1 class="hero-title">Crisp, bold, and impossible to ignore</h1>
+          <p class="hero-subtitle">Golden fries finished with bold seasonings, rich toppings, and crave-worthy flair.</p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="index.html#contact">Order Now</a>
+            <a class="btn btn-ghost" href="index.html">Back Home</a>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="section">
+        <div class="section-head reveal">
+          <span class="eyebrow">Fries Signature</span>
+          <h2>Loaded comfort in every crispy bite</h2>
+        </div>
+
+        <div class="menu-grid">
+          <article class="menu-card reveal">
+            <img src="images/loaded-fries.jpeg" alt="Loaded fries" loading="lazy" />
+            <div class="menu-card-body">
+              <h3>Loaded Fries</h3>
+              <p>Cheese, herbs, and sauce over a crunchy pile of fries.</p>
+              <a class="btn btn-secondary" href="index.html#contact">Order Now</a>
+            </div>
+          </article>
+
+          <article class="menu-card reveal">
+            <img src="images/cheese-fries.jpeg" alt="Cheese fries" loading="lazy" />
+            <div class="menu-card-body">
+              <h3>Cheese Fries</h3>
+              <p>Golden fries finished with gooey cheese and a flavorful glaze.</p>
+              <a class="btn btn-secondary" href="index.html#contact">Order Now</a>
+            </div>
+          </article>
+
+          <article class="menu-card reveal">
+            <img src="images/masala-fries.jpeg" alt="Masala fries" loading="lazy" />
+            <div class="menu-card-body">
+              <h3>Masala Fries</h3>
+              <p>Bold seasoning and a crisp texture for a spicy, satisfying bite.</p>
+              <a class="btn btn-secondary" href="index.html#contact">Order Now</a>
+            </div>
+          </article>
+
+          <article class="menu-card reveal">
+            <img src="images/peri-peri-fries.jpeg" alt="Peri peri fries" loading="lazy" />
+            <div class="menu-card-body">
+              <h3>Peri Peri Fries</h3>
+              <p>Fiery spice and a sharp finish for lovers of bold flavor.</p>
+              <a class="btn btn-secondary" href="index.html#contact">Order Now</a>
+            </div>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>© <span id="year"></span> CraveBox Cafe. Every Bite Creates Happiness.</p>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CraveBox Cafe | Maggi</title>
+  <meta name="description" content="Explore premium vegetarian maggi at CraveBox Cafe." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="loading-screen">
+    <div class="loader-card">
+      <img src="images/logo.png" alt="CraveBox Cafe logo" />
+      <h2>CraveBox Cafe</h2>
+      <p>Maggi Collection</p>
+    </div>
+  </div>
+
+  <div class="site-shell">
+    <div class="particles"></div>
+
+    <nav class="navbar">
+      <div class="navbar-inner">
+        <a class="brand" href="index.html">
+          <img src="images/logo.png" alt="CraveBox Cafe logo" />
+          <span>CraveBox Cafe</span>
+        </a>
+        <button class="menu-toggle" aria-label="Toggle menu">☰</button>
+        <div class="nav-links">
+          <a href="index.html">Home</a>
+          <a href="pizza.html">Pizza</a>
+          <a href="sandwiches.html">Sandwiches</a>
+          <a href="maggi.html" class="active">Maggi</a>
+          <a href="garlic-bread.html">Garlic Bread</a>
+          <a href="fries.html">Fries</a>
+          <a href="index.html#contact">Contact</a>
+          <button class="theme-toggle" aria-label="Toggle theme">☀️</button>
+        </div>
+      </div>
+    </nav>
+
+    <header class="hero" style="min-height: 70vh;">
+      <video autoplay muted loop playsinline poster="images/veg-loaded-maggi.jpeg">
+        <source src="images/maggi-video.mp4" type="video/mp4" />
+      </video>
+
+      <div class="hero-content" style="max-width: 980px;">
+        <div class="hero-copy reveal">
+          <span class="eyebrow">Maggi</span>
+          <h1 class="hero-title">Comfort in a bowl, elevated with premium flavor</h1>
+          <p class="hero-subtitle">Soft, savory, and rich with spices, cheese, and festive comfort.</p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="index.html#contact">Order Now</a>
+            <a class="btn btn-ghost" href="index.html">Back Home</a>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="section">
+        <div class="section-head reveal">
+          <span class="eyebrow">Maggi Signature</span>
+          <h2>Cheesy, spicy, and deeply satisfying</h2>
+        </div>
+
+        <div class="menu-grid">
+          <article class="menu-card reveal">
+            <img src="images/veg-loaded-maggi.jpeg" alt="Veg loaded maggi" loading="lazy" />
+            <div class="menu-card-body">
+              <h3>Veg Loaded Maggi</h3>
+              <p>Cheese, vibrant vegetables, and rich seasoning in a comforting bowl.</p>
+              <a class="btn btn-secondary" href="index.html#contact">Order Now</a>
+            </div>
+          </article>
+
+          <article class="menu-card reveal">
+            <img src="images/classic-maggi.jpeg" alt="Classic maggi" loading="lazy" />
+            <div class="menu-card-body">
+              <h3>Classic Maggi</h3>
+              <p>Timeless flavor with a rich, savory finish and smooth texture.</p>
+              <a class="btn btn-secondary" href="index.html#contact">Order Now</a>
+            </div>
+          </article>
+
+          <article class="menu-card reveal">
+            <img src="images/paneer-maggi.jpeg" alt="Paneer maggi" loading="lazy" />
+            <div class="menu-card-body">
+              <h3>Paneer Maggi</h3>
+              <p>Paneer cubes and vibrant spices bring a gourmet twist.</p>
+              <a class="btn btn-secondary" href="index.html#contact">Order Now</a>
+            </div>
+          </article>
+
+          <article class="menu-card reveal">
+            <img src="images/masala-maggi.jpeg" alt="Masala maggi" loading="lazy" />
+            <div class="menu-card-body">
+              <h3>Masala Burst</h3>
+              <p>Bold spice and roasted notes for a flavor-packed indulgence.</p>
+              <a class="btn btn-secondary" href="index.html#contact">Order Now</a>
+            </div>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>© <span id="year"></span> CraveBox Cafe. Every Bite Creates Happiness.</p>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
